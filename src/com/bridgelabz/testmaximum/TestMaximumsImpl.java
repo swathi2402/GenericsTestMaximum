@@ -16,8 +16,8 @@ public class TestMaximumsImpl<T extends Comparable<T>> {
 		if (secondInput.compareTo(LargestInput) > 0) {
 			LargestInput = secondInput;
 		}
-		if (secondInput.compareTo(LargestInput) > 0) {
-			LargestInput = secondInput;
+		if (thirdInput.compareTo(LargestInput) > 0) {
+			LargestInput = thirdInput;
 		}
 
 		System.out.println("Largest among the three is: " + LargestInput);
