@@ -31,7 +31,15 @@ public class TestMaximumsImpl implements TestmaximumsIF {
 
 	@Override
 	public void findStringMaximum(String firstString, String secondString, String thirdString) {
-		// TODO Auto-generated method stub
+		String LargestString = firstString;
+		if (secondString.compareTo(LargestString) > 0) {
+			LargestString = secondString;
+		}
+		if (thirdString.compareTo(LargestString) > 0) {
+			LargestString = thirdString;
+		}
+
+		System.out.println("Largest Float is: " + LargestString);
 		
 	}
 
