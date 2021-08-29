@@ -29,4 +29,10 @@ public class TestMaximumsImpl implements TestmaximumsIF {
 		
 	}
 
+	@Override
+	public void findStringMaximum(String firstString, String secondString, String thirdString) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
