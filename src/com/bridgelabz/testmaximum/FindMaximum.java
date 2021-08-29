@@ -1,15 +1,13 @@
 package com.bridgelabz.testmaximum;
 
-import java.lang.Integer;
-
 public class FindMaximum {
 
 	public static void main(String[] args) {
 		TestmaximumsIF testmaximums = new TestMaximumsImpl();
-		Integer firstFloat = 50;
-		Integer secondFloat = 40;
-		Integer thirdFloat = 30;
-		testmaximums.findIntMaximum(firstFloat, secondFloat, thirdFloat);
+		Float firstFloat = (float) 5.0;
+		Float secondFloat = (float) 5.1;
+		Float thirdFloat = (float) 5.5;
+		testmaximums.findFloatMaximum(firstFloat, secondFloat, thirdFloat);
 	}
 
 }
