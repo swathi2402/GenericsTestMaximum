@@ -1,5 +1,5 @@
 package com.bridgelabz.testmaximum;
 
 public interface TestmaximumsIF {
-	public void findIntMaximum(int firstInteger, int secondInteger, int thirdInteger);
+	public void findIntMaximum(Integer firstInteger, Integer secondInteger, Integer thirdInteger);
 }
